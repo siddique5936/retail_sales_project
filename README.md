@@ -52,6 +52,12 @@ As per our model; Customer, store Type, CompetitionDistance and Promo are the mo
 
 # Conclusion
 
-By Looking at the evaluation metrices obtained on implementing different sort of regression model, we decided to go with the Random Forest Tuned model.The maximum R^2 was seen in tuned Random Forest model with the value 0.97185. It means our best accurate model is able to explain approx/almost 97% of variances in the datasets.
+By Looking at the evaluation metrices obtained on implementing different sort of regression model each model performing well having r2 score well that is more than 90% but comparison to all the models we decided to go with the Random Forest Tuned model.
+
+beacause r2 was very close to 1 and the metrics like mse mae and rmse has very low value that explains well for the performance of the model
+
+The maximum R^2 was seen in tuned Random Forest model with the value 0.97185. It means our best accurate model is able to explain approx/almost 97% of variances in the datasets.
+
+where all models like decision tree has also high accuracy but incase we have to choose only the optimal model so we have to go through hyperparameter tuining for random forest
 
 Based on our model; Customer, store Type, Promo & CompetitionDistance are the most impactful features which are driving the sales more as compared to other features present in the dataset.
